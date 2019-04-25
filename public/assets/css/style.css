@@ -1,0 +1,17 @@
+
+.portion {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.click-able {
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<li>
+
+    {{#if devoured}}
+    <div class="devoured center-text">
+        {{burger_name}}
+    </div>
+    {{/if}}
+
+    {{#unless devoured}}
+    <div class="center-text click-able">
+        {{burger_name}}
+        <button class="new" data-id="{{id}}">Devour it</button>
+    </div>
+    {{/unless}}
+
+</li>
